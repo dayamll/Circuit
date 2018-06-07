@@ -1,0 +1,310 @@
+@import url(https://fonts.googleapis.com/css?family=Dosis:500);
+body {
+  padding: 0;
+  margin: 0;
+  background: navajowhite;
+  font-family: 'Dosis', sans-serif;
+  width: 1920px;
+  height: 1080px;
+}
+
+#preloader {
+  overflow: hidden;
+  background-color: #fff;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999999;
+}
+
+.colorlib-load {
+  -webkit-animation: 2000ms linear 0s normal none infinite running colorlib-load;
+  animation: 2000ms linear 0s normal none infinite running colorlib-load;
+  background: transparent none repeat scroll 0 0;
+  border-color: #dddddd #dddddd #E84545;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 2px;
+  height: 40px;
+  left: calc(50% - 20px);
+  position: relative;
+  top: calc(50% - 20px);
+  width: 40px;
+  z-index: 9;
+}
+
+@-webkit-keyframes colorlib-load {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes colorlib-load {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+header .first-image {
+  width: 170px;
+  margin-left: 257px;
+  margin-top: 29px;
+  float: left;
+}
+
+header .left-text {
+  margin-left: 23px;
+  margin-top: 29px;
+  float: left;
+}
+
+header .text-color {
+  color: mediumaquamarine;
+  margin-left: 5px;
+  margin-top: 29px;
+  float: left;
+}
+
+header .right-text {
+  margin-right: 257px;
+  margin-top: 29px;
+  float: right;
+}
+
+.right-down-text {
+  color: #817f7f !important;
+  float: right !important;
+}
+
+/* Menu Tabla */
+
+.tabs-menu {
+  height: 100%;
+  float: left;
+  list-style: none;
+  clear: both;
+  width: 30%;
+  padding: 0;
+  margin: 0;
+}
+
+.tabs-menu li {
+  width: 100%;
+  height: 50px;
+  line-height: 27px;
+  float: left;
+  margin-right: 10px;
+}
+
+.tabs-menu li.current {
+  position: relative;
+  z-index: 5;
+}
+
+.tabs-menu li a {
+  display: block;
+  margin-left: 257px;
+  margin-top: 82px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.dotted-1 {
+  border-bottom: dotted;
+  width: 55px;
+}
+
+.dotted-2 {
+  border-bottom: dotted;
+  width: 70px;
+}
+
+.dotted-3 {
+  border-bottom: dotted;
+  width: 60px;
+}
+
+.dotted-4 {
+  border-bottom: dotted;
+  width: 40px;
+}
+
+.dotted-5 {
+  border-bottom: dotted;
+  width: 60px;
+}
+
+.dotted-6 {
+  border-bottom: dotted;
+  width: 45px;
+}
+
+.dotted-7 {
+  border-bottom: dotted;
+  width: 55px;
+}
+
+.tabs-menu .current a {
+  color: #1ab667;
+  font-weight: bold;
+  border-bottom: dotted;
+  width: 150%;
+}
+
+.tabs-menu .current3 a {
+  color: #313332;
+  font-weight: bold;
+  border-bottom: dotted;
+  width: 150%;
+}
+
+.tab {
+  float: right;
+  margin-bottom: 20px;
+  width: 70%;
+}
+
+.tab-content {
+  width: 90%;
+  text-align: justify;
+  padding: 5%;
+  display: none;
+}
+
+.second-tabs-menu {
+  height: 100%;
+  list-style: none;
+  clear: both;
+  width: 30%;
+  padding: 0;
+  margin: 0;
+}
+
+.third-tabs-menu {
+  list-style: none;
+  cursor: pointer;
+}
+
+.text {
+  list-style: none;
+  width: 45%;
+}
+
+.second-tabs-menu li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.all-text {
+  margin-top: 50px;
+  margin-left: -230px;
+}
+
+.second-tabs-menu li {
+  width: 100%;
+  height: 40px;
+  line-height: 27px;
+  float: left;
+  margin-left: -180px;
+}
+
+.second-tabs-menu li.current {
+  position: relative;
+  z-index: 5;
+}
+
+.second-tabs-menu li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.second-tabs-menu .current a {
+  color: #1ab667;
+  font-weight: bold;
+  border-bottom: dotted;
+  width: 100%;
+}
+
+.second-tabs-menu .current2 a {
+  color: #1ab667;
+  font-weight: bold;
+  border-bottom: dotted;
+  width: 50%;
+}
+
+.person {
+  width: 200px;
+}
+
+.right {
+  float: right !important;
+  margin-right: 257px;
+  margin-top: 82px;
+}
+
+.right-text {
+  float: right !important;
+}
+
+.fix-bottom {
+  position: fixed;
+  bottom: 0;
+}
+
+.space {
+  padding-left: 257px;
+}
+
+
+@media screen and (max-width:500px) {
+  header .first-image {
+    width: 40px;
+  }
+  .tabs-menu li {
+    height: 40px;
+    line-height: 25px;
+  }
+  .tabs-menu li a i {
+    font-size: 25px;
+    margin: 0 14px
+  }
+}
+
+/*===================================
+Scrollbar Style DanielSTh
+===================================*/
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(245, 170, 58)
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgb(245, 170, 58)
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(245, 170, 58)
+}
